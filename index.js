@@ -29,6 +29,28 @@ message.reply('**Please you go to the voice🐱**');
 
 });
 
+client.on("ready", () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on("message", msg => {
+  if (msg.content === "Slaw reklam ") {
+    msg.reply("**tkaiia rawasta takU wlammt dadretaua kissing_cat: ");
+  }
+}); 
+
+
+client.on("ready", () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on("message", msg => {
+  if (msg.content === "سلاو رێکلام ") {
+    msg.reply("**تکایە راوەستە تاکوو وڵام دەدرێیتەوە kissing_cat: ");
+  }
+}); 
+
+
 
 client.on("message" , message => {
 
