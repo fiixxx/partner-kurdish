@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(`  https://discord.gg/F8ng6crDU4`) ///Lin Server Never ///Dark Heilyam
+  message.author.send(`  https://discord.gg/kq4KWJnBaw`) ///Link Server Never ///RaWeN
     
-  client.channels.get("ID Channel Partner").send(
-`> Dark Heilyam Up | By: <@${message.author.id}> 
+  client.channels.get("ID Channel").send(
+`> RaWeN Up | By: <@${message.author.id}> 
 ${message.content}`)
 }
     }
@@ -57,4 +57,4 @@ client.user.setGame(`Send Me`)
 
 
 
-client.login("");///Dark Heilyam ///Token
+client.login("");///RaWeN ///Token
