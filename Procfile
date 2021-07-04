@@ -1,1 +1,1 @@
-worker: node rawen.js
+worker: node index.js
